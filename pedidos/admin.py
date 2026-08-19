@@ -1,6 +1,9 @@
 from django.contrib import admin
 
 # Register your models here.
+admin.site.site_header = "Admon Cafetería Yuri"
+admin.site.site_title = "Panel Cafetería Yuri"
+admin.site.index_title = "Control de Operaciones"
 
 from .models import Producto, Pedido
 
